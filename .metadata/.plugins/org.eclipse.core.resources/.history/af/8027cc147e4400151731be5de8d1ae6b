@@ -1,0 +1,50 @@
+import java.awt.Color;
+import java.awt.Font;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+
+
+
+public class JLablesAndFonts {
+	JFrame window;
+	JButton button1,button2,button3,button4;
+	JLabel label;
+	JPanel panel;
+	Font f;
+
+	public static void main (String[] args)
+	{
+		new JLablesAndFonts();
+	}
+	JLablesAndFonts()
+	{
+		window = new JFrame();
+		window.pack();
+		
+		window.setVisible(true);
+		window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		button1 = new JButton("ADD");
+		button2 = new JButton("SUB");
+		button3 = new JButton("COLOR");
+		button4 = new JButton("EXIT");
+		panel = new JPanel();
+		panel.add(button1);
+		panel.add(button2);
+		panel.add(button3);
+		panel.add(button4);
+		window.add(panel);
+		label = new JLabel( );
+		window.add(label);
+		f = new Font("Arial",Font.BOLD,16);
+		label.setFont(f);
+		label.setForeground(Color.BLUE);
+		window.setSize(500,500);
+		
+		
+		
+	}
+
+}

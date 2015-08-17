@@ -1,6 +1,4 @@
-INDEX VERSION 1.127+/Users/Guest/GitHub/eclipse-level-0/.metadata/.plugins/org.eclipse.jdt.core
-2538956862.index
-38906749.index
-3265685315.index
+INDEX VERSION 1.127+/Users/Guest/eclipse-level-0/.metadata/.plugins/org.eclipse.jdt.core
 1705264027.index
-329132874.index
+848014550.index
+3265685315.index

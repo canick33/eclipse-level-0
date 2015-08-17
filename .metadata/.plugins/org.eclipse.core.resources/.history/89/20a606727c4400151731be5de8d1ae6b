@@ -1,0 +1,36 @@
+import java.awt.Font;
+
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+
+
+
+public class JLablesAndFonts {
+	JFrame window;
+	JPanel button1;
+	JLabel label;
+	Font f;
+	public static void main (String[] args)
+	{
+		new JLablesAndFonts();
+	}
+	JLablesAndFonts()
+	{
+		window = new JFrame();
+		window.pack();
+		window.setSize(500,500);
+		window.setVisible(true);
+		window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		button1 = new JPanel();
+		window.add(button1);
+		label = new JLabel("		words");
+		window.add(label);
+		f = new Font("Arial",Font.BOLD,16);
+		label.setFont(f);
+		
+		
+		
+	}
+
+}
