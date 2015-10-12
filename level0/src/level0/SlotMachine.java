@@ -80,7 +80,7 @@ public class SlotMachine implements ActionListener {
 	public int spin()
 	{
 		Random r = new Random();
-		int x = r.nextInt();
+		int x = r.nextInt(3);
 		return x;
 	}
 }
