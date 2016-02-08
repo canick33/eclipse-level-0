@@ -1,14 +1,14 @@
 package level0;
 
+import java.awt.Graphics;
+
 import javax.swing.*;
-import java.util.Scanner;
 
 public class PhotoBook {
 	JFrame frame;
-	ImagePanel ip;
+ BackgroundPanel  ip;
  public static void main (String[] args)
  {
-	 Scanner reader = new Scanner(System.in);
 	 PhotoBook p = new PhotoBook();
 
 
@@ -18,9 +18,10 @@ public PhotoBook()
 	 {
 		JFrame frame = new JFrame(); 
 		frame.setVisible(true);
-		frame.setSize(500,500);
-		 ip = new ImagePanel("imgres.jpg",2000,1000);
+		 ip = new BackgroundPanel();
 		 frame.add(ip);
+		frame.setSize(500,500);
+
 		 frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	 }
  
